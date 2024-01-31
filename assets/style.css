@@ -90,24 +90,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
-.title{
-	text-align: center;
-	padding-block: 2em;
-}
-.gallery .nav {
-	justify-content: center;
-}
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: black;
-	background-color: #BEB45A;
-	border-radius:0 ;
-}
-.nav-pills .nav-link {
-	color: #000
-}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -119,6 +101,27 @@ body {
 	padding-bottom: 100%;
 
 }
+
+#gallery {
+	/*	min-height: 100vh; */
+}
+.title{
+	text-align: center;
+	padding-block: 2em;
+}
+.gallery .nav {
+	justify-content: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: black;
+	background-color: #BEB45A;
+	border-radius:0 ;
+}
+.nav-pills .nav-link {
+	color: #000
+}
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -126,6 +129,7 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -135,6 +139,7 @@ body {
 	display: flex;
 	font-size: 24px;
 }
+
 
 .quote {
 	font-family: 'Spectral';
