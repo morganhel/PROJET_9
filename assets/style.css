@@ -359,6 +359,10 @@ input[type="submit"] {
 		font-size: 1.25em;
 	}
 
+	.picture{
+		width:200px;
+	}
+
 	
 }
 
