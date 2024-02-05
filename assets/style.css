@@ -277,6 +277,7 @@ input[type="submit"] {
 	}
 
 	.picture.left::before {
+		width:100%;
 		position: absolute;
 		bottom: auto;
 		top: 0;
